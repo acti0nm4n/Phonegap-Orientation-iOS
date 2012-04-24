@@ -28,7 +28,7 @@ Params in object:
 * ll - Landscape left
 * lr - Landscape right
 
-####Examples
+####Examples (in javascript)
 
 Portrait only
 
