@@ -8,8 +8,18 @@ Phonegap-Orientation-iOS
 Place Orientation.h & Orientation.m in to plugins folder
 
 Add into Appdelegate.h
+	
+	...
+	
+		@interface AppDelegate : PhoneGapDelegate {
 
-	- (void)setOrientation:(NSArray *)arguments;
+			NSString* invokeString;
+		}
+	
+		- (void)setOrientation:(NSArray *)arguments;
+ 		- @property (copy)  NSString* invokeString;
+
+	@end
 
 Add into AppDelegate.m
 
