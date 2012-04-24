@@ -30,7 +30,6 @@ Add into AppDelegate.m
 			[super dealloc];
 		}
 
-
 		- (void)setOrientation:(NSArray *)arguments
 		{
 			self.viewController.supportedOrientations = arguments;
