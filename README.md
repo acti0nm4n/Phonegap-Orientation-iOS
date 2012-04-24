@@ -3,7 +3,9 @@ Phonegap-Orientation-iOS
 
 ##Plugin for enabling/disabling device orientation
 
-In Xcode
+####In Xcode project
+
+Place Orientation.h & Orientation.m in to plugins folder
 
 Add into Appdelegate.h
 
@@ -25,6 +27,8 @@ Params in object:
 * pd - Portrait upside down
 * ll - Landscape left
 * lr - Landscape right
+
+####Examples
 
 Portrait only
 
