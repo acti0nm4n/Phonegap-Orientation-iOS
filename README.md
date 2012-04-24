@@ -24,10 +24,18 @@ Add into Appdelegate.h
 
 Add into AppDelegate.m
 
-	- (void)setOrientation:(NSArray *)arguments
-	{
-		self.viewController.supportedOrientations = arguments;
-	}
+	...
+		- (void) dealloc
+		{
+			[super dealloc];
+		}
+
+
+		- (void)setOrientation:(NSArray *)arguments
+		{
+			self.viewController.supportedOrientations = arguments;
+		}
+	@end
 
 ###Usage
 
