@@ -16,8 +16,9 @@ Add into Appdelegate.h
 			NSString* invokeString;
 		}
 	
-		- (void)setOrientation:(NSArray *)arguments;
  		- @property (copy)  NSString* invokeString;
+                                
+		- (void)setOrientation:(NSArray *)arguments;
 
 	@end
 
