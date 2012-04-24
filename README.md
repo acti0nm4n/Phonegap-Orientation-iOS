@@ -36,6 +36,10 @@ Add into AppDelegate.m
 		}
 	@end
 
+Add field into Supporting Files / <PROJECT>.plist
+
+	name: orientation (value: Orientation)
+
 ###Usage
 
 Include OrienationPlugin.js in index.html
