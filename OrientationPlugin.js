@@ -1,4 +1,3 @@
-
 var OrientationPlugin = function() {};
 			 
 OrientationPlugin.prototype.setAllowed = function(options) {
